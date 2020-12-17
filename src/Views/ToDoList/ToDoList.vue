@@ -47,7 +47,6 @@ export default {
         type: this.typeStrs[this.tags.length % 5]
       };
       this.tags.push(content);
-      console.log(666);
     }
   }
 };
